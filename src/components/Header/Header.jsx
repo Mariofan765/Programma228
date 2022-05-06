@@ -24,7 +24,7 @@ class Header extends React.Component {
                 </div>
                 <button className={"header__btn header__btn-shopper"} onClick={() => {
                     this.props.updateContent('corzina')
-                }}>shop {this.isCountCard()}</button>
+                }}>corzina {this.isCountCard()}</button>
             </div>
         );
     }
